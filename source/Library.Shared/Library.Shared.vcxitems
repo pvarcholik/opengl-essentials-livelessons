@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{1c7c7728-bdbc-482d-9524-436994286e99}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)BasicEffect.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Camera.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ColorHelper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)DirectionalLight.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)DrawableGameComponent.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)FirstPersonCamera.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Game.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameClock.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameComponent.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameTime.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Grid.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Light.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MatrixHelper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Mesh.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Model.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ModelMaterial.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)PerspectiveCamera.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)PointLight.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ProxyModel.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ServiceContainer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ShaderProgram.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Skybox.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SkyboxEffect.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SpotLight.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utility.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Variable.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)VectorHelper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)VertexDeclarations.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)BasicEffect.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Camera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ColorHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)DirectionalLight.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)DrawableGameComponent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Enum.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)FirstPersonCamera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Game.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameClock.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameComponent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameTime.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Grid.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Light.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MatrixHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Mesh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Model.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ModelMaterial.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)PerspectiveCamera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)PointLight.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ProxyModel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)RTTI.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ServiceContainer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ShaderProgram.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Skybox.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SkyboxEffect.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SpotLight.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utility.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Variable.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VectorHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VertexDeclarations.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)DrawableGameComponent.inl" />
+    <None Include="$(MSBuildThisFileDirectory)Enum.inl" />
+    <None Include="$(MSBuildThisFileDirectory)Game.inl" />
+    <None Include="$(MSBuildThisFileDirectory)GameComponent.inl" />
+  </ItemGroup>
+</Project>
