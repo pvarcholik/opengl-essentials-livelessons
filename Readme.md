@@ -1,10 +1,10 @@
-###Overview
+### Overview
 
 This is the source code repository for the video series *OpenGL Essentials LiveLessons* by Paul Varcholik.
 
 [![OpenGL Essentials LiveLessons](Cover.jpg)](http://my.safaribooksonline.com/video/programming/opengl/9780133824360)
 
-###Prerequisites
+### Prerequisites
 * Windows
     * Windows 10
     * Visual Studio 2019 or newer
@@ -12,11 +12,12 @@ This is the source code repository for the video series *OpenGL Essentials LiveL
 * Linux
     * [CMake](https://cmake.org/)
 
-###Quick Start (Win32 latest)
+### Quick Start (Win32 latest)
 
 Retrieve this repository:
 ```
-> git clone https://bitbucket.org/pvarcholik/opengl-essentials-livelessons.git
+> mkdir dev && cd dev
+> git clone https://github.com/pvarcholik/opengl-essentials-livelessons.git
 ```
 
 Install vcpkg ([additional detail](https://github.com/microsoft/vcpkg)):
@@ -35,7 +36,7 @@ Install dependencies (assuming default triplet of x86-windows):
 
 Open the OpenGL.sln file (within the build directory) in Visual Studio and enjoy!
 
-###Quick Start (Linux latest)
+### Quick Start (Linux latest)
 
 Linux environment setup:
 ````
@@ -46,7 +47,7 @@ Linux environment setup:
 Retrieve this repository:
 ```
 > mkdir dev && cd dev
-> git clone https://bitbucket.org/pvarcholik/opengl-essentials-livelessons.git
+> git clone https://github.com/pvarcholik/opengl-essentials-livelessons.git
 ```
 
 Install vcpkg ([additional detail](https://github.com/microsoft/vcpkg)) and dependencies:
@@ -67,16 +68,17 @@ Build
 (produces binaries under opengl-essentials-livelessonsbuild/source/Lesson*)
 ```
 
-###Using Older versions
+### Using Older versions
 
 Retrieve this repository:
 ```
-> git clone https://bitbucket.org/pvarcholik/opengl-essentials-livelessons.git
+> mkdir dev && cd dev
+> git clone https://github.com/pvarcholik/opengl-essentials-livelessons.git
 > cd opengl-essentials-livelessons
 > git checkout <tagname> (see list of tags below. e.g. git checkout v1.0)
 ```
 
-###Tags
+### Tags
 * v1.0 - 4/25/2014 - Original code published with the lessons (Visual Studio 2013 projects)
 * v2.0 - 7/1/2016 - Significant refactoring (Visual Studio 2015 projects)
     * NuGet packages
@@ -94,7 +96,7 @@ Retrieve this repository:
     * Refactoring for reduced code duplication and reduced platform dependencies
     * CMake project configuration and Linux support
 
-###Library Dependencies
+### Library Dependencies
 
 * [GLFW](https://www.glfw.org/) - OpenGL Framework
 * [GL3W](https://github.com/skaslev/gl3w) - Simple OpenGL core profile loading
