@@ -100,7 +100,7 @@ Retrieve this repository:
 
 * [GLFW](https://www.glfw.org/) - OpenGL Framework
 * [GL3W](https://github.com/skaslev/gl3w) - Simple OpenGL core profile loading
-* [GSL](https://github.com/Microsoft/GSL) - Guidlines Support Library (Microsoft)
+* [GSL](https://github.com/Microsoft/GSL) - Guidelines Support Library (Microsoft)
 * [Assimp](http://www.assimp.org/) - Open Asset Import Library
 * [GLM](https://glm.g-truc.net/0.9.9/index.html) - OpenGL Mathematics
 * [SOIL](https://github.com/littlstar/soil) - Simple OpenGL Image Library
