@@ -1,0 +1,535 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build All Lessons (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        ".",
+        "--config",
+        "Debug",
+        "--parallel",
+        "18",
+        "--verbose"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "Generate All Lessons (DEBUG)",
+    },
+    {
+      "label": "Build Lesson1_1 (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        ".",
+        "--config",
+        "Debug",
+        "--parallel",
+        "18",
+        "--verbose",
+        "--target",
+        "Lesson1_1"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "Generate All Lessons (DEBUG)",
+    },
+    {
+      "label": "Build Lesson1_2 (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        ".",
+        "--config",
+        "Debug",
+        "--parallel",
+        "18",
+        "--verbose",
+        "--target",
+        "Lesson1_2"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "Generate All Lessons (DEBUG)",
+    },
+    {
+      "label": "Build Lesson1_3 (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        ".",
+        "--config",
+        "Debug",
+        "--parallel",
+        "18",
+        "--verbose",
+        "--target",
+        "Lesson1_3"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "Generate All Lessons (DEBUG)",
+    },
+    {
+      "label": "Build Lesson3_1 (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        ".",
+        "--config",
+        "Debug",
+        "--parallel",
+        "18",
+        "--verbose",
+        "--target",
+        "Lesson3_1"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "Generate All Lessons (DEBUG)",
+    },
+    {
+      "label": "Build Lesson3_2 (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        ".",
+        "--config",
+        "Debug",
+        "--parallel",
+        "18",
+        "--verbose",
+        "--target",
+        "Lesson3_2"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "Generate All Lessons (DEBUG)",
+    },
+    {
+      "label": "Build Lesson3_3 (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        ".",
+        "--config",
+        "Debug",
+        "--parallel",
+        "18",
+        "--verbose",
+        "--target",
+        "Lesson3_3"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "Generate All Lessons (DEBUG)",
+    },
+    {
+      "label": "Build Lesson4_1 (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        ".",
+        "--config",
+        "Debug",
+        "--parallel",
+        "18",
+        "--verbose",
+        "--target",
+        "Lesson4_1"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "Generate All Lessons (DEBUG)",
+    },
+    {
+      "label": "Build Lesson4_2 (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        ".",
+        "--config",
+        "Debug",
+        "--parallel",
+        "18",
+        "--verbose",
+        "--target",
+        "Lesson4_2"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "Generate All Lessons (DEBUG)",
+    },
+    {
+      "label": "Build Lesson4_3 (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        ".",
+        "--config",
+        "Debug",
+        "--parallel",
+        "18",
+        "--verbose",
+        "--target",
+        "Lesson4_3"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "Generate All Lessons (DEBUG)",
+    },
+    {
+      "label": "Build Lesson5_1 (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        ".",
+        "--config",
+        "Debug",
+        "--parallel",
+        "18",
+        "--verbose",
+        "--target",
+        "Lesson5_1"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "Generate All Lessons (DEBUG)",
+    },
+    {
+      "label": "Build Lesson5_2 (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        ".",
+        "--config",
+        "Debug",
+        "--parallel",
+        "18",
+        "--verbose",
+        "--target",
+        "Lesson5_2"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "Generate All Lessons (DEBUG)",
+    },
+    {
+      "label": "Build Lesson5_3 (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        ".",
+        "--config",
+        "Debug",
+        "--parallel",
+        "18",
+        "--verbose",
+        "--target",
+        "Lesson5_3"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "Generate All Lessons (DEBUG)",
+    },
+    {
+      "label": "Build Lesson5_4 (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        ".",
+        "--config",
+        "Debug",
+        "--parallel",
+        "18",
+        "--verbose",
+        "--target",
+        "Lesson5_4"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "Generate All Lessons (DEBUG)",
+    },
+    {
+      "label": "Build Lesson5_5 (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        ".",
+        "--config",
+        "Debug",
+        "--parallel",
+        "18",
+        "--verbose",
+        "--target",
+        "Lesson5_5"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "Generate All Lessons (DEBUG)",
+    },    
+    {
+      "label": "Build Lesson6_1 (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        ".",
+        "--config",
+        "Debug",
+        "--parallel",
+        "18",
+        "--verbose",
+        "--target",
+        "Lesson6_1"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "Generate All Lessons (DEBUG)",
+    },
+    {
+      "label": "Build Lesson6_2 (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        ".",
+        "--config",
+        "Debug",
+        "--parallel",
+        "18",
+        "--verbose",
+        "--target",
+        "Lesson6_2"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "Generate All Lessons (DEBUG)",
+    },
+    {
+      "label": "Build Lesson6_3 (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        ".",
+        "--config",
+        "Debug",
+        "--parallel",
+        "18",
+        "--verbose",
+        "--target",
+        "Lesson6_3"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "Generate All Lessons (DEBUG)",
+    },
+    {
+      "label": "Build Lesson6_4 (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        ".",
+        "--config",
+        "Debug",
+        "--parallel",
+        "18",
+        "--verbose",
+        "--target",
+        "Lesson6_4"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "dependsOn": "Generate All Lessons (DEBUG)",
+    },
+    {
+      "label": "Generate All Lessons (DEBUG)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "..",
+        "-DCMAKE_BUILD_TYPE=Debug",
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    }
+  ]
+}

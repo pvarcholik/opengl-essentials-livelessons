@@ -10,6 +10,10 @@ if(MSVC)
 	add_compile_options(/W4 /WX /std:c++17)
 else()
 	add_compile_options(-Wall -Wextra -pedantic -Werror -std=c++17 -Wno-ignored-qualifiers)
+
+	if(CMAKE_BUILD_TYPE STREQUAL "Debug")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O0")
+  endif()
 endif()
 
 add_subdirectory("source")

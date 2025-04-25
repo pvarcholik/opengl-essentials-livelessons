@@ -1,0 +1,455 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Lesson 1_1 (DEBUG)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${build_path}/${binary_path}",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "cwd": "${workspaceRoot}/${build_path}",
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        },
+        {
+            "description": "Skip stepping into standard library files",
+            "text": "skip -gfi **/include/c++/*/bits/*.h",
+            "ignoreFailures": true
+        }
+      ],
+      "variables": {
+        "build_path": "build/source/Lesson1_1",
+        "binary_path": "Lesson1_1"
+      }
+    },
+    {
+      "name": "Launch Lesson 1_2 (DEBUG)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${build_path}/${binary_path}",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "cwd": "${workspaceRoot}/${build_path}",
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        },
+        {
+            "description": "Skip stepping into standard library files",
+            "text": "skip -gfi **/include/c++/*/bits/*.h",
+            "ignoreFailures": true
+        }
+      ],
+      "variables": {
+        "build_path": "build/source/Lesson1_2",
+        "binary_path": "Lesson1_2"
+      }
+    },
+    {
+      "name": "Launch Lesson 1_3 (DEBUG)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${build_path}/${binary_path}",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "cwd": "${workspaceRoot}/${build_path}",
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        },
+        {
+            "description": "Skip stepping into standard library files",
+            "text": "skip -gfi **/include/c++/*/bits/*.h",
+            "ignoreFailures": true
+        }
+      ],
+      "variables": {
+        "build_path": "build/source/Lesson1_3",
+        "binary_path": "Lesson1_3"
+      }
+    },
+    {
+      "name": "Launch Lesson 3_1 (DEBUG)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${build_path}/${binary_path}",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "cwd": "${workspaceRoot}/${build_path}",
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        },
+        {
+            "description": "Skip stepping into standard library files",
+            "text": "skip -gfi **/include/c++/*/bits/*.h",
+            "ignoreFailures": true
+        }
+      ],
+      "variables": {
+        "build_path": "build/source/Lesson3_1",
+        "binary_path": "Lesson3_1"
+      }
+    },
+    {
+      "name": "Launch Lesson 3_2 (DEBUG)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${build_path}/${binary_path}",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "cwd": "${workspaceRoot}/${build_path}",
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        },
+        {
+            "description": "Skip stepping into standard library files",
+            "text": "skip -gfi **/include/c++/*/bits/*.h",
+            "ignoreFailures": true
+        }
+      ],
+      "variables": {
+        "build_path": "build/source/Lesson3_2",
+        "binary_path": "Lesson3_2"
+      }
+    },
+    {
+      "name": "Launch Lesson 3_3 (DEBUG)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${build_path}/${binary_path}",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "cwd": "${workspaceRoot}/${build_path}",
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        },
+        {
+            "description": "Skip stepping into standard library files",
+            "text": "skip -gfi **/include/c++/*/bits/*.h",
+            "ignoreFailures": true
+        }
+      ],
+      "variables": {
+        "build_path": "build/source/Lesson3_3",
+        "binary_path": "Lesson3_3"
+      }
+    },
+    {
+      "name": "Launch Lesson 4_1 (DEBUG)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${build_path}/${binary_path}",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "cwd": "${workspaceRoot}/${build_path}",
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        },
+        {
+            "description": "Skip stepping into standard library files",
+            "text": "skip -gfi **/include/c++/*/bits/*.h",
+            "ignoreFailures": true
+        }
+      ],
+      "variables": {
+        "build_path": "build/source/Lesson4_1",
+        "binary_path": "Lesson4_1"
+      }
+    },
+    {
+      "name": "Launch Lesson 4_2 (DEBUG)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${build_path}/${binary_path}",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "cwd": "${workspaceRoot}/${build_path}",
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        },
+        {
+            "description": "Skip stepping into standard library files",
+            "text": "skip -gfi **/include/c++/*/bits/*.h",
+            "ignoreFailures": true
+        }
+      ],
+      "variables": {
+        "build_path": "build/source/Lesson4_2",
+        "binary_path": "Lesson4_2"
+      }
+    },
+    {
+      "name": "Launch Lesson 4_3 (DEBUG)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${build_path}/${binary_path}",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "cwd": "${workspaceRoot}/${build_path}",
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        },
+        {
+            "description": "Skip stepping into standard library files",
+            "text": "skip -gfi **/include/c++/*/bits/*.h",
+            "ignoreFailures": true
+        }
+      ],
+      "variables": {
+        "build_path": "build/source/Lesson4_3",
+        "binary_path": "Lesson4_3"
+      }
+    },
+    {
+      "name": "Launch Lesson 5_1 (DEBUG)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${build_path}/${binary_path}",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "cwd": "${workspaceRoot}/${build_path}",
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        },
+        {
+            "description": "Skip stepping into standard library files",
+            "text": "skip -gfi **/include/c++/*/bits/*.h",
+            "ignoreFailures": true
+        }
+      ],
+      "variables": {
+        "build_path": "build/source/Lesson5_1",
+        "binary_path": "Lesson5_1"
+      }
+    },
+    {
+      "name": "Launch Lesson 5_2 (DEBUG)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${build_path}/${binary_path}",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "cwd": "${workspaceRoot}/${build_path}",
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        },
+        {
+            "description": "Skip stepping into standard library files",
+            "text": "skip -gfi **/include/c++/*/bits/*.h",
+            "ignoreFailures": true
+        }
+      ],
+      "variables": {
+        "build_path": "build/source/Lesson5_2",
+        "binary_path": "Lesson5_2"
+      }
+    },
+    {
+      "name": "Launch Lesson 5_3 (DEBUG)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${build_path}/${binary_path}",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "cwd": "${workspaceRoot}/${build_path}",
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        },
+        {
+            "description": "Skip stepping into standard library files",
+            "text": "skip -gfi **/include/c++/*/bits/*.h",
+            "ignoreFailures": true
+        }
+      ],
+      "variables": {
+        "build_path": "build/source/Lesson5_3",
+        "binary_path": "Lesson5_3"
+      }
+    },
+    {
+      "name": "Launch Lesson 5_4 (DEBUG)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${build_path}/${binary_path}",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "cwd": "${workspaceRoot}/${build_path}",
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        },
+        {
+            "description": "Skip stepping into standard library files",
+            "text": "skip -gfi **/include/c++/*/bits/*.h",
+            "ignoreFailures": true
+        }
+      ],
+      "variables": {
+        "build_path": "build/source/Lesson5_4",
+        "binary_path": "Lesson5_4"
+      }
+    },
+    {
+      "name": "Launch Lesson 5_5 (DEBUG)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${build_path}/${binary_path}",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "cwd": "${workspaceRoot}/${build_path}",
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        },
+        {
+            "description": "Skip stepping into standard library files",
+            "text": "skip -gfi **/include/c++/*/bits/*.h",
+            "ignoreFailures": true
+        }
+      ],
+      "variables": {
+        "build_path": "build/source/Lesson5_5",
+        "binary_path": "Lesson5_"
+      }
+    },
+    {
+      "name": "Launch Lesson 6_1 (DEBUG)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${build_path}/${binary_path}",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "cwd": "${workspaceRoot}/${build_path}",
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        },
+        {
+            "description": "Skip stepping into standard library files",
+            "text": "skip -gfi **/include/c++/*/bits/*.h",
+            "ignoreFailures": true
+        }
+      ],
+      "variables": {
+        "build_path": "build/source/Lesson6_1",
+        "binary_path": "Lesson6_1"
+      }
+    },
+    {
+      "name": "Launch Lesson 6_2 (DEBUG)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${build_path}/${binary_path}",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "cwd": "${workspaceRoot}/${build_path}",
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        },
+        {
+            "description": "Skip stepping into standard library files",
+            "text": "skip -gfi **/include/c++/*/bits/*.h",
+            "ignoreFailures": true
+        }
+      ],
+      "variables": {
+        "build_path": "build/source/Lesson6_2",
+        "binary_path": "Lesson6_2"
+      }
+    },
+    {
+      "name": "Launch Lesson 6_3 (DEBUG)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${build_path}/${binary_path}",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "cwd": "${workspaceRoot}/${build_path}",
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        },
+        {
+            "description": "Skip stepping into standard library files",
+            "text": "skip -gfi **/include/c++/*/bits/*.h",
+            "ignoreFailures": true
+        }
+      ],
+      "variables": {
+        "build_path": "build/source/Lesson6_3",
+        "binary_path": "Lesson6_3"
+      }
+    },
+    {
+      "name": "Launch Lesson 6_4 (DEBUG)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${build_path}/${binary_path}",
+      "stopAtEntry": false,
+      "MIMode": "gdb",
+      "cwd": "${workspaceRoot}/${build_path}",
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        },
+        {
+            "description": "Skip stepping into standard library files",
+            "text": "skip -gfi **/include/c++/*/bits/*.h",
+            "ignoreFailures": true
+        }
+      ],
+      "variables": {
+        "build_path": "build/source/Lesson6_4",
+        "binary_path": "Lesson6_4"
+      }
+    },    
+  ]
+}
